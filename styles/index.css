@@ -14,6 +14,10 @@ body {
     height: 100%;
 }
 
+img {
+    max-width: 100%;
+}
+
 .bg-light {
     background-color: #f7f7f7 !important;
 }
@@ -27,10 +31,54 @@ body {
     margin-right: 15px;
 }
 
+.logo {
+    width: 120px;
+}
+
 #hero {
     text-align: center;
-    background-image: url('../assets/background.jpeg'); /* TODO: add linear gradient */
-    height: 95vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/background.jpeg'); /* TODO: add linear gradient */
+    /* height: 95vh; */
     background-position: center;
     background-size: cover;
+    color: #fff;
+    padding-top: 30vh;
 }
+
+.header_1 {
+    font-weight: 700;
+    font-size: 4em;
+}
+
+.tagline {
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.launch_p {
+    margin-top: 45px;
+    margin-bottom: 12vh !important;
+}
+
+.launch_p > .launch_a {
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 25px 0 rgba(0,0,0,0.07);
+    font-weight: bold;
+}
+
+.scroller {
+    font-size: 3em;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* todo: style for 500px and below */
+
+/* todo: style for tablets and netbooks */
+
+/* todo: style for 1680px and above */
