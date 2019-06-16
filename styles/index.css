@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Montserrat;
+    background-color: #f7f7f7;
+    height: 100%;
+}
+
+.bg-light {
+    background-color: #f7f7f7 !important;
+}
+
+.navbar {
+    padding: 20px auto;
+}
+
+.nav-item > .nav-link {
+    color: #000 !important;
+    margin-right: 15px;
+}
+
+#hero {
+    text-align: center;
+    background-image: url('../assets/background.jpeg'); /* TODO: add linear gradient */
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+}
