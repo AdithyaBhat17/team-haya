@@ -77,6 +77,49 @@ img {
     text-decoration: none;
 }
 
+/* about */
+.header_2 {
+    text-align: center;
+    font-weight: bold;
+    margin: 25px auto;
+}
+
+.about_img {
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px 0 rgba(0,0,0,0.07);
+    margin-bottom: 25px;
+}
+
+.about_p {
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.events_img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px 0 rgba(0,0,0,0.07);
+    margin-bottom: 25px;
+}
+
+.header_6, .header_3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.event_sp {
+    font-size: 12px;
+    text-align: center !important;
+    font-weight: 500;
+    display: block;
+    margin: 0 auto 10px;
+    width: 80%;
+}
+
 /* todo: style for 500px and below */
 
 /* todo: style for tablets and netbooks */
