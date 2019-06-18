@@ -120,6 +120,45 @@ img {
     width: 80%;
 }
 
+/* learning outcomes */
+.learn_img {
+    display: block;
+    margin: 25px auto 15px;
+}
+
+.learn_p {
+    text-align: center;
+    font-weight: 500;
+}
+
+/* contact */
+#contact {
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer_img {
+    margin-top: 25px;
+    display: block;
+    margin-left: 0 !important;
+    border-radius: 4px;
+    box-shadow: 5px 5px 25px 0 rgba(0,0,0,0.07);
+    /* width: 70%; */
+}
+
+.input_btn {
+    background-color: #1F52AB;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 25px 0 rgba(0,0,0,0.07);
+    padding: 10px 20px;
+}
+
 /* todo: style for 500px and below */
 
 /* todo: style for tablets and netbooks */
