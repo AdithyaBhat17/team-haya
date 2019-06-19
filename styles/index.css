@@ -35,6 +35,14 @@ img {
     width: 120px;
 }
 
+.navbar-toggler {
+    border: none;
+}
+.navbar-light .navbar-toggler-icon {
+    margin-top: 5px;
+    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='%23000' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h15M4 '/></svg>");
+}
+
 #hero {
     text-align: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/background.jpeg'); /* TODO: add linear gradient */
@@ -49,6 +57,7 @@ img {
     font-weight: 700;
     font-size: 4em;
 }
+
 
 .tagline {
     margin-top: 25px;
@@ -159,7 +168,37 @@ img {
     padding: 10px 20px;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #000 !important;
+    font-weight: 500;
+    opacity: 0.8 !important; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #000 !important;
+    font-weight: 500;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #000 !important;
+    font-weight: 500;
+  }
+
 /* todo: style for 500px and below */
+@media only screen and (max-width: 500px) {
+    .navbar {
+        padding: 5px;
+    }
+    #hero {
+        padding-top: 20vh;
+    }
+    .header_1 {
+        font-size: 2.2em;
+    }
+    .tagline, .about_p {
+        font-size: 16px;
+    }
+}
 
 /* todo: style for tablets and netbooks */
 
