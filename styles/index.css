@@ -177,17 +177,23 @@ img {
     color: #000 !important;
     font-weight: 500;
     opacity: 0.8 !important; /* Firefox */
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+}
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
     color: #000 !important;
     font-weight: 500;
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
+}
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
     color: #000 !important;
     font-weight: 500;
-  }
+}
+
+.social_a {
+    color: #fff;
+    font-size: 1.5em;
+    margin-right: 15px;
+}
 
 /* todo: style for 500px and below */
 @media only screen and (max-width: 500px) {
