@@ -216,13 +216,13 @@
             <form class="form" action="https://getsimpleform.com/messages?form_api_token=a1243a042526fe0a71c04e58ce01a007" method="post">
               <input type="hidden" name="redirect_to" value="https://adithyabhat.com/team-haya">
               <div class="form-group">
-                <input type="text" class="input_1 form-control" placeholder="Name"/>
+                <input type="text" class="input_1 form-control" name="name" required  placeholder="Name"/>
               </div>
               <div class="form-group">
-                <input type="text" class="input_1 form-control" placeholder="Phone No." />
+                <input type="text" class="input_1 form-control" name="phone" required  placeholder="Phone No." />
               </div>
               <div class="form-group">
-                <textarea name="message" id="message" class="form-control" rows="5" placeholder="Your Message"></textarea>
+                <textarea name="message" id="message" class="form-control" required rows="5" placeholder="Your Message"></textarea>
               </div>
               <input type="submit" value="Send" class="input_btn">
             </form>
