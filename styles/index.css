@@ -33,7 +33,11 @@ img {
 }
 
 .logo {
-    width: 120px;
+    width: 200px;
+}
+
+.pes-logo {
+    width: 100px;
 }
 
 .navbar-toggler {
@@ -95,9 +99,9 @@ img {
 }
 
 .about_img {
-    border-radius: 15px;
     box-shadow: 5px 5px 25px 0 rgba(0,0,0,0.07);
     margin-bottom: 25px;
+    width: 100vw;
 }
 
 .about_p {
