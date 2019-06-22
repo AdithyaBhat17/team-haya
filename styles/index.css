@@ -13,6 +13,11 @@ body {
     font-family: Montserrat;
     background-color: #f7f7f7;
     height: 100%;
+    -webkit-transition: background 1.5s linear;
+    -moz-transition: background 1.5s linear;
+    -o-transition: background 1.5s linear;
+    -ms-transition: background 1.5s linear;
+    transition: background 1.5s linear;
 }
 
 img {
