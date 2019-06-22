@@ -10,4 +10,6 @@ const backgroundChange = () => {
     
 }
 
-backgroundChange()
+window.addEventListener('loadend', () => {
+    backgroundChange()
+})
