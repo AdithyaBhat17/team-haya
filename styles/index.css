@@ -13,11 +13,6 @@ body {
     font-family: Montserrat;
     background-color: #f7f7f7;
     height: 100%;
-    -webkit-transition: background 1.5s linear;
-    -moz-transition: background 1.5s linear;
-    -o-transition: background 1.5s linear;
-    -ms-transition: background 1.5s linear;
-    transition: background 1.5s linear;
 }
 
 img {
@@ -53,10 +48,51 @@ img {
     background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='%23000' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h15M4 '/></svg>");
 }
 
+@-webkit-keyframes imagebox {
+    0% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/background.jpeg');
+    }
+    10% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/backgrounds/1.jpg');
+    }
+    20% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/backgrounds/2.jpg');
+    }
+    30% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/backgrounds/3.jpg');
+    }
+    40% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/backgrounds/4.jpg');
+    }
+    50% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/backgrounds/5.jpg');
+    }
+    60% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/backgrounds/6.jpg');
+    }
+    70% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/backgrounds/7.jpg');
+    }
+    80% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/backgrounds/8.jpg');
+    }
+    90% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/backgrounds/9.jpg');
+    }
+    100% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/backgrounds/10.jpg');
+    }
+  }
+
+
 #hero {
     text-align: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/background.jpeg'); /* TODO: add linear gradient */
     /* height: 95vh; */
+    -webkit-animation: imagebox 100s infinite ease-in-out;
+   	-moz-animation: imagebox 100s infinite ease-in-out;
+   	-o-animation: imagebox 100s infinite ease-in-out;
+
     background-position: center;
     background-size: cover;
     color: #fff;
